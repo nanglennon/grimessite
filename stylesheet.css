@@ -1,0 +1,772 @@
+body{
+	background-color:bcd631;
+	font-family: 'Goldman';
+}
+
+h1{
+	font-family: sans-serif;
+	font-size: 60pt;
+	rotate:180deg;
+	}
+
+	.home{
+		border:100px;
+		border-color: pink;
+		position:absolute;
+		top:300px;
+		left:800px;
+	}
+
+	.title{
+		transform: rotate(90deg);
+		font-size: 200px;
+		position: absolute;
+		top:200px;
+		left:80px;
+		color:white;
+	}
+
+	.title2{
+		transform: rotate(90deg);
+		font-size: 200px;
+		position: absolute;
+		top:200px;
+		left:60px;
+	}
+
+	.blackbox{
+		position: absolute;
+		top:200px;
+		left:0px;
+		width:1440px;
+		height:650px;
+		z-index:-5;
+		background-color: black;
+
+	}
+
+	.pinkbox{
+		position: absolute;
+		top:200px;
+		left:0px;
+		width:400px;
+		height:650px;
+		z-index: -1;
+		background-color: pink;
+	}
+
+	.indicator{
+		position: absolute;
+		top:140px;
+		left:607px;
+	}
+
+	.spiel{
+		position: absolute;
+		top:800px;
+		left:40px;
+		width:400px;
+		font-size: 160px;
+		color:hotpink;
+		font-family: 'Goldman';
+		
+	}
+
+	.spiel2{
+		position: absolute;
+		top:1100px;
+		left:130px;
+		width:500px;
+		font-size: 100px;
+		color:pink;
+		font-family: 'Goldman';
+		
+	}
+	.spiel3{
+		position: absolute;
+		top:810px;
+		left:500px;
+		width:400px;
+		font-family: 'Goldman';
+		
+	}
+	.spiel4{
+		position: absolute;
+		top:1020px;
+		left:220px;
+		width:800px;
+		font-size: 80px;
+		font-family: 'Goldman';
+		
+	}
+	.spiel5{
+		position: absolute;
+		top:1120px;
+		left:700px;
+		width:600px;
+		font-size: 100px;
+		font-family: 'Goldman';
+		
+	}
+
+	.spiel6{
+		position: absolute;
+		top:880px;
+		left:890px;
+		width:220px;
+		font-size: 180px;
+		color:pink;
+		font-family: 'Goldman';
+	}
+
+	.homecircle{
+		position: absolute;
+		top:450px;
+		left:75px;
+		width:1300px;
+		z-index: -6
+	}
+
+
+	.musician{
+		position: absolute;
+		top:200px;
+		right:10px;
+		font-size:50px;
+		text-align: right;
+		color: hotpink;
+	}
+
+	.producer{
+		position: absolute;
+		top:300px;
+		right:10px;
+		font-size:50px;
+		text-align: right;
+		color: hotpink;
+	}
+
+	.director{
+			position: absolute;
+		top:400px;
+		right:10px;
+		font-size:50px;
+		text-align: right;
+		color: hotpink;
+	}
+
+	.artist{
+			position: absolute;
+		top:500px;
+		right:10px;
+		font-size:50px;
+		text-align: right;
+		color: hotpink;
+	}
+
+	.alien{
+			position: absolute;
+		top:600px;
+		right:10px;
+		font-size:50px;
+		text-align: right;
+		color: pink;
+
+	}
+
+	.homebottom{
+		position: absolute;
+		top:1300px;
+		left:0px;
+		width:1440px;
+	}
+
+	.About{
+		width: 400px;
+	padding: 20px;
+	font-size: 20px;
+	position:absolute;
+	top:200;
+	left:500;
+	border-right: solid #be509e;
+	border-top:solid #be509e;
+	padding: 225px;
+	}
+
+	.about2{
+		width: 400px;
+	padding: 20px;
+	font-size: 20px;
+	position:absolute;
+	top:700;
+	left:900;
+	}
+
+	.greybox{
+		position:absolute;
+		top:300px;
+		left:0px;
+		width:1440px;
+		height: 760px;
+		z-index: -10;
+		background-color: grey;
+	}
+
+.abpic{
+	width:600px;
+	position:absolute;
+	z-index:-1;
+	left:200px;
+	top:260px;
+}
+
+.homenav{
+	position:absolute;
+	left:600px;
+	top:100px;
+	text-decoration: none;
+	font-size: 30px;
+	color:black;
+}
+.homenav:hover{
+	color:hotpink;
+}
+
+.aboutnav{
+	position:absolute;
+	left:785px;
+	top:100px;
+	text-decoration: none;
+	font-size: 30px;
+	color:black;
+}
+.aboutnav:hover{
+	color:hotpink;
+}
+
+.disconav{
+	position:absolute;
+	left:955px;
+	top:100px;
+	text-decoration: none;
+	font-size: 30px;
+	color:black;
+}
+.disconav:hover{
+	color:hotpink;
+}
+
+.gallnav{
+	position:absolute;
+	left:1200px;
+	top:100px;
+	text-decoration: none;
+	font-size: 30px;
+	color:black;
+}
+
+.gallnav:hover{
+	color:hotpink;
+}
+
+.awards{
+	border:100px;
+	position:absolute;
+	top:1100px;
+	right:100px;
+	background-color:0f5136;
+	width:400px;
+	font-size:29px;
+	padding:10px;
+	color:white;
+}
+
+.indicator2{
+	position: absolute;
+	top:140px;
+	left:795px;
+}
+.c{
+	position:absolute;
+	font-style: italic;
+	left:700px;
+	top:80px;
+	font-size:150px;
+}
+.my{
+	font-size:100px;
+	color:be509e;
+	position: absolute;
+	top:-10px;
+}
+.name{
+	font-size:100px;
+	color:be509e;
+	position: absolute;
+	top:210px;
+}
+.is{
+	font-size:100px;
+	color:be509e;
+	position: absolute;
+	top:430px;
+	
+}
+.dark{
+	font-size:100px;
+	color:black;
+	position: absolute;
+	top:650px;
+}
+
+.abouttwitter{
+	position: absolute;
+	top:250px;
+	right:200px;
+	width:100px;
+	z-index: 10;
+	transition: transform .2s ease-in;
+}
+
+.abouttwitter:hover{
+	transform: scale(1.2);
+}
+
+.elonabt{
+	position: absolute;
+	top:1425px;
+	left:200px;
+	width:485px;
+}
+
+.albumabt{
+	position: absolute;
+	top:1995px;
+	left:200px;
+	width:485px;
+}
+
+.elon{
+	width:485px;
+	position: absolute;
+	top:1100px;
+	left:200px;
+
+}
+
+.art{
+	width:485px;
+	position: absolute;
+	top:1410px;
+	left:95px;
+	border-left: solid #be509e;
+	border-bottom:solid #be509e;
+	padding: 100px;
+}
+
+.twitter{
+	position: absolute;
+	top:300px;
+	left:100px;
+	transition: transform .2s ease-in;
+}
+.twitter:hover{
+	transform: scale(1.25);
+}
+
+
+.instagram{
+	position: absolute;
+	top:400px;
+	left:100px;
+	transition: transform .2s ease-in;
+}
+.instagram:hover{
+	transform: scale(1.25);
+}
+
+.tumblr{
+	position: absolute;
+	top:500px;
+	left:100px;
+	transition: transform .2s ease-in;
+}
+.tumblr:hover{
+	transform: scale(1.25);
+}
+
+.spotify{
+	position: absolute;
+	top:600px;
+	left:100px;
+	transition: transform .2s ease-in;
+}
+.spotify:hover{
+	transform: scale(1.25);
+}
+
+.indicator3{
+	position: absolute;
+	top:140px;
+	left:1014px;
+}
+
+.geidiprime{
+	position: absolute;
+	top:300px;
+	right:100px;
+	width:400px;
+	z-index: 100;
+}
+
+.visions{
+position: absolute;
+top:1100px;
+	right:100px;
+	width: 400px
+}
+
+.artangels{
+position: absolute;
+	top:1500px;
+	left:100px;
+	width: 400px;
+}
+
+.halfaxa{
+position: absolute;
+top:700px;
+	left:100px;
+	width: 400px;
+	
+}
+
+.miss{
+position: absolute;
+	top:1900px;
+	right:100px;
+	width: 400px;
+}
+
+.alien2{
+	position: absolute;
+	top:2500px;
+	right:0px;
+	width:1440px;
+}
+
+.line1{
+	position: absolute;
+	top:480px;
+	left:0px;
+	width:1440px;
+	height:30px;
+	z-index: -1;
+	background-color: hotpink;
+}
+
+.line2{
+position: absolute;
+	top:880px;
+	left:0px;
+	width:1440px;
+	height:30px;
+	z-index: -1;
+	background-color: hotpink;
+}
+
+.line3{
+position: absolute;
+	top:1280px;
+	left:0px;
+	width:1440px;
+	height:30px;
+	z-index: -1;
+	background-color: hotpink;
+}
+
+.line4{
+position: absolute;
+	top:1680px;
+	left:0px;
+	width:1440px;
+	height:30px;
+	z-index: -1;
+	background-color: hotpink;
+}
+
+.line5{
+position: absolute;
+	top:2080px;
+	left:0px;
+	width:1440px;
+	height:30px;
+	z-index: -1;
+	background-color: hotpink;
+}
+
+.cover1{
+	position: absolute;
+	top:300px;
+	left:200px;
+	font-size: 80px;
+	color:white;
+}
+
+.cover2{
+position: absolute;
+	top:700px;
+	right:330px;
+	font-size: 80px;
+	color:white;
+}
+
+.cover3{
+position: absolute;
+	top:1100px;
+	left:320px;
+	font-size: 80px;
+	color:white;
+}
+
+.cover4{
+position: absolute;
+	top:1500px;
+	right:250px;
+	font-size: 80px;
+	color:white;
+}
+
+.cover5{
+position: absolute;
+	top:1900px;
+	left:70px;
+	font-size: 80px;
+	color:white;
+}
+
+.discoicon{
+	position: absolute;
+	top:150px;
+	left:200px;
+	width:100px;
+	transition: transform .2s ease-in;
+}
+.discoicon:hover{
+	transform: scale(1.25);
+}
+
+.discoback{
+	position: absolute;
+	top:200px;
+	left:0px;
+	width:1440px;
+	height:2300px;
+	background-color: 0f5136;
+	z-index: -10;
+}
+
+.year1{
+	position: absolute;
+	top:427px;
+	left:420px;
+	font-size: 30px;
+	color: black;
+
+}
+.year2{
+	position: absolute;
+	top:827px;
+	right:450px;
+	font-size: 30px;
+	color: black;
+}
+.year3{
+	position: absolute;
+	top:1227px;
+	left:440px;
+	font-size: 30px;
+	color: black;
+
+}
+.year4{
+	position: absolute;
+	top:1627px;
+	right:440px;
+	font-size: 30px;
+	color: black;
+
+}
+.year5{
+	position: absolute;
+	top:2027px;
+	left:430px;
+	font-size: 30px;
+	color: black;
+
+}
+.gallery1{
+	position: absolute;
+	top:400px;
+	left:520px;
+	width:400px;
+}
+.gallery2{
+	position: absolute;
+	top:535px;
+	right:115px;
+	width:400px;
+}
+.gallery3{
+	position: absolute;
+	top:535px;
+	left:115px;
+	width:400px;
+}
+.gallery4{
+	position: absolute;
+	top:1285px;
+	left:115px;
+	width:400px;
+}
+.gallery5{
+	position: absolute;
+	top:1285px;
+	right:115px;
+	width:400px;
+}
+.gallery6{
+	position: absolute;
+	top:1830px;
+	left:520px;
+	width:400px;
+}
+.gallery7{
+	position: absolute;
+	top:1420px;
+	left:520px;
+	width:400px;
+}
+.gallery8{
+	position: absolute;
+	top:943px;
+	right:15px;
+	width:500px;
+}
+
+.gallery9{
+	position: absolute;
+	top:810px;
+	left:520px;
+	width:400px;
+}
+.gallery10{
+	position: absolute;
+	top:943px;
+	left:15px;
+	width:500px;
+}
+.gallery11{
+	position: absolute;
+	top:2373px;
+	right:15px;
+	width:500px;
+}
+.gallery12{
+	position: absolute;
+	top:2240px;
+	right:520px;
+	width:400px;
+}
+.gallery13{
+	position: absolute;
+	top:1965px;
+	right:115px;
+	width:400px;
+}
+.gallery15{
+	position: absolute;
+	top:1965px;
+	left:115px;
+	width:400px;
+
+}
+.gallery16{
+	position: absolute;
+	left:15px;
+	top:2373px;
+	width:500px;
+
+}
+.gallery17{
+	position: absolute;
+	right:115px;
+	top:2715px;
+	width:400px;
+}
+
+.gallery18{
+	position: absolute;
+	left:520px;
+	top:2850px;
+	width:400px;
+
+}
+
+.gallery19{
+		position: absolute;
+	left:115px;
+	top:2715px;
+	width:400px;
+}
+
+.galback{
+	position: absolute;
+	top:200px;
+	left:0px;
+	width:1440px;
+	height:3200px;
+	background-color: grey;
+	z-index: -10;
+}
+
+.circle{
+	position: absolute;
+	top:1120px;
+	left:0px;
+	width:1435px;
+	z-index: -1;
+}
+	
+.indicator4{
+	position: absolute;
+	top:140px;
+	left:1218px;
+}
+
+.galleryinsta{
+	position:absolute;
+	top:150px;
+	left:200px;
+	width:100px;
+	transition: transform .2s ease-in;
+}
+.galleryinsta:hover{
+	transform: scale(1.25);
+}
+
+.extraspace{
+	position: absolute;
+	top:2100px;
+	width: 1400px;
+	height: 100px;
+}
+
+
+
+
+
+
+
+
+
